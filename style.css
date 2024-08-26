@@ -1,0 +1,64 @@
+.container {
+    margin: auto;
+    background-image: url(bg.jpg);
+    background-position:  100vmax;
+    height: 80vh;
+    width: 160vm;
+    padding: 100px;
+}
+
+.name {
+    margin: auto;
+    background-color: black;
+    display: block;
+    height: 50px;
+    width: 150px;
+    font-size: xx-large;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    border: solid 3px red;
+    border-radius: 14px;
+    padding: 4px;
+}
+
+#clock {
+    display: block;
+    background-color:rgb(140, 127, 153);
+    height: 250px;
+    width: 250px;
+    border-radius: 160px;
+    margin: auto;
+    position: relative;
+    bottom: -40px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.cl {
+    height: 80px;
+    width: 250px;
+}
+.btn {
+    border: solid black 3px;
+    display: inline-block;
+    padding: 10px;
+}
+#Time{
+    float: left;
+}
+#Month{
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+}
+#Day{
+    float: right;
+}
+#Date{
+   position: absolute;
+   bottom: 50px;
+   left: 200px;
+    
+}
